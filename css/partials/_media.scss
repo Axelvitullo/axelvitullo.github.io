@@ -1,0 +1,38 @@
+@media (max-width: 992px) {
+  .productos_descuento {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .productos_destacados {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 800px) {
+  .carousel-item {
+    padding-left: 2rem;
+  }
+  .carousel {
+    width: 800px;
+    height: 900px;
+  }
+}
+@media (max-width: 600px) {
+  .tipos_cuchillos {
+    display: inline-block;
+    width: 70%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    width: 250px;
+  }
+}
