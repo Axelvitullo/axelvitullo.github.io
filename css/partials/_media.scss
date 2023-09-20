@@ -12,6 +12,12 @@
     justify-content: center;
   }
 }
+@media (max-width: 1200px) {
+  .productos_nuevos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr;
+  }
+}
 @media (min-width: 800px) {
   .carousel-item {
     padding-left: 2rem;
@@ -34,5 +40,8 @@
     transition: 0.3s;
 
     width: 250px;
+  }
+  img {
+    max-height: 200px;
   }
 }
